@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o"
-  "xfrm_nl_test.pdb"
-  "xfrm_nl_test"
+  "../../../Bin/xfrm_nl_test.pdb"
+  "../../../Bin/xfrm_nl_test"
 )
 
 # Per-language clean rules from dependency scanning.

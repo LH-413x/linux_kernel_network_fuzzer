@@ -1,2 +1,2 @@
-/usr/bin/ar qc libxfrm_nl.a  CMakeFiles/xfrm_nl_static.dir/xfrm.cpp.o
-/usr/bin/ranlib libxfrm_nl.a
+/usr/bin/ar qc ../../../Lib/libxfrm_nl.a  CMakeFiles/xfrm_nl_static.dir/xfrm.cpp.o
+/usr/bin/ranlib ../../../Lib/libxfrm_nl.a

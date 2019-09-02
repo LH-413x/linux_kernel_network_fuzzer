@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libxfrm_nl.so -o libxfrm_nl.so CMakeFiles/xfrm_nl_share.dir/xfrm.cpp.o -lnl-genl-3 -lnl-route-3 -lnl-xfrm-3 -lnl-3 
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libxfrm_nl.so -o ../../../Lib/libxfrm_nl.so CMakeFiles/xfrm_nl_share.dir/xfrm.cpp.o 

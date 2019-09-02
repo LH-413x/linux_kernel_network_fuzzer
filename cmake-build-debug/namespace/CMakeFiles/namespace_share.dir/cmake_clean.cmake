@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/namespace_share.dir/namespace.cpp.o"
-  "libnamespace.pdb"
-  "libnamespace.so"
+  "../Lib/libnamespace.pdb"
+  "../Lib/libnamespace.so"
 )
 
 # Per-language clean rules from dependency scanning.

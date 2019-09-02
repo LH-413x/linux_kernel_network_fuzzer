@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/liuhao/CLionProjects/linux/net/fuzzer/include -I/usr/local/include/libnl3 
+CXX_INCLUDES = -I/home/liuhao/CLionProjects/linux/net/fuzzer/namespace -I/usr/local/include/libnl3 
 

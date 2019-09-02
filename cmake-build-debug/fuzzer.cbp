@@ -28,8 +28,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="fuzzer">
-				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/fuzzer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug"/>
+				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Bin/fuzzer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,8 +51,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="fuzzer/fast">
-				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/fuzzer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug"/>
+				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Bin/fuzzer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="namespace_share">
-				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/namespace/libnamespace.so" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Lib/libnamespace.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/namespace"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
@@ -108,7 +108,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="namespace_share/fast">
-				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/namespace/libnamespace.so" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Lib/libnamespace.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/namespace"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
@@ -132,8 +132,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="namespace_test">
-				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/namespace/namespace_test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/namespace"/>
+				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Bin/namespace_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -156,8 +156,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="namespace_test/fast">
-				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/namespace/namespace_test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/namespace"/>
+				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Bin/namespace_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -180,7 +180,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="namespace_static">
-				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/namespace/libnamespace.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Lib/libnamespace.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/namespace"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
@@ -204,7 +204,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="namespace_static/fast">
-				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/namespace/libnamespace.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Lib/libnamespace.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/namespace"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
@@ -228,13 +228,13 @@
 				</MakeCommands>
 			</Target>
 			<Target title="xfrm_nl_test">
-				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm/xfrm_nl_test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm"/>
+				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Bin/xfrm_nl_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/include"/>
+					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/namespace"/>
 					<Add directory="/usr/local/include/libnl3"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -253,13 +253,13 @@
 				</MakeCommands>
 			</Target>
 			<Target title="xfrm_nl_test/fast">
-				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm/xfrm_nl_test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm"/>
+				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Bin/xfrm_nl_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/include"/>
+					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/namespace"/>
 					<Add directory="/usr/local/include/libnl3"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -278,13 +278,13 @@
 				</MakeCommands>
 			</Target>
 			<Target title="xfrm_nl_share">
-				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm/libxfrm_nl.so" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Lib/libxfrm_nl.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/include"/>
+					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/namespace"/>
 					<Add directory="/usr/local/include/libnl3"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -303,13 +303,13 @@
 				</MakeCommands>
 			</Target>
 			<Target title="xfrm_nl_share/fast">
-				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm/libxfrm_nl.so" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Lib/libxfrm_nl.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/include"/>
+					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/namespace"/>
 					<Add directory="/usr/local/include/libnl3"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -328,13 +328,13 @@
 				</MakeCommands>
 			</Target>
 			<Target title="xfrm_nl_static">
-				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm/libxfrm_nl.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Lib/libxfrm_nl.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/include"/>
+					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/namespace"/>
 					<Add directory="/usr/local/include/libnl3"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -353,13 +353,13 @@
 				</MakeCommands>
 			</Target>
 			<Target title="xfrm_nl_static/fast">
-				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm/libxfrm_nl.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Lib/libxfrm_nl.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/include"/>
+					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/namespace"/>
 					<Add directory="/usr/local/include/libnl3"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>

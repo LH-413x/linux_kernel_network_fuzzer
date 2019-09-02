@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/fuzzer.dir/main.cpp.o"
-  "fuzzer.pdb"
-  "fuzzer"
+  "Bin/fuzzer.pdb"
+  "Bin/fuzzer"
 )
 
 # Per-language clean rules from dependency scanning.

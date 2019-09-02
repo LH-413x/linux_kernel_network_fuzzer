@@ -5,8 +5,8 @@ set(srcs namespace.cpp)
 #set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 # 生成动态库目标
 add_library(namespace_share SHARED ${srcs})
-# 生成静态库目标libnamecpace
 add_library(namespace_static STATIC ${srcs})
+
 # 指定静态库的输出名称
 set_target_properties(namespace_share PROPERTIES OUTPUT_NAME "namespace")
 set_target_properties(namespace_static PROPERTIES OUTPUT_NAME "namespace")

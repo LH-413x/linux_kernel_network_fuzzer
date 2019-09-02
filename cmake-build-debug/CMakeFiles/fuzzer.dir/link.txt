@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/fuzzer.dir/main.cpp.o  -o fuzzer namespace/libnamespace.a 
+/usr/bin/c++  -g   CMakeFiles/fuzzer.dir/main.cpp.o  -o Bin/fuzzer Lib/libnamespace.a 

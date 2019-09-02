@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libxfrm_nl.a"
+  "../../../Lib/libxfrm_nl.a"
 )

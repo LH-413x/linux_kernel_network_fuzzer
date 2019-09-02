@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/xfrm_nl_static.dir/xfrm.cpp.o"
-  "libxfrm_nl.pdb"
-  "libxfrm_nl.a"
+  "../../../Lib/libxfrm_nl.pdb"
+  "../../../Lib/libxfrm_nl.a"
 )
 
 # Per-language clean rules from dependency scanning.

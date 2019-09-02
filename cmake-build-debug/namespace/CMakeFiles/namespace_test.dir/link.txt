@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/namespace_test.dir/namespace_test.cpp.o  -o namespace_test libnamespace.a 
+/usr/bin/c++  -g   CMakeFiles/namespace_test.dir/namespace_test.cpp.o  -o ../Bin/namespace_test ../Lib/libnamespace.a 
