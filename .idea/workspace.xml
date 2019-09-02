@@ -2,7 +2,13 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="fuzzer" targetName="xfrm_nl_static" />
+      <config projectName="fuzzer" targetName="xfrm_nl_share" />
+      <config projectName="fuzzer" targetName="namespace_share" />
+      <config projectName="fuzzer" targetName="namespace_static" />
+      <config projectName="fuzzer" targetName="xfrm_nl_test" />
       <config projectName="fuzzer" targetName="fuzzer" />
+      <config projectName="fuzzer" targetName="namespace_test" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +17,37 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9479740c-a8f6-4b4d-b89f-aea09e0fa55b" name="Default Changelist" comment="" />
+    <list default="true" id="9479740c-a8f6-4b4d-b89f-aea09e0fa55b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kinterface/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kinterface/netlink/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kinterface/netlink/base/base_nl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kinterface/netlink/xfrm/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kinterface/netlink/xfrm/xfrm.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kinterface/netlink/xfrm/xfrm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kinterface/netlink/xfrm/xfrm_nl_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fuzzer.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fuzzer.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fuzzer.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fuzzer.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/fuzzer" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/fuzzer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/fuzzer.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/fuzzer.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/namespace/CMakeFiles/namespace_share.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/namespace/CMakeFiles/namespace_share.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/namespace/CMakeFiles/namespace_share.dir/namespace.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/namespace/CMakeFiles/namespace_share.dir/namespace.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/namespace/CMakeFiles/namespace_static.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/namespace/CMakeFiles/namespace_static.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/namespace/CMakeFiles/namespace_static.dir/namespace.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/namespace/CMakeFiles/namespace_static.dir/namespace.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/namespace/CMakeFiles/namespace_test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/namespace/CMakeFiles/namespace_test.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/namespace/CMakeFiles/namespace_test.dir/namespace_test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/namespace/CMakeFiles/namespace_test.dir/namespace_test.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/namespace/libnamespace.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/namespace/libnamespace.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/namespace/libnamespace.so" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/namespace/libnamespace.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/namespace/namespace_test" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/namespace/namespace_test" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +65,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1QGB1pwfkTH4DnlJHtNBRvWIib5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -46,12 +88,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.xfrm_nl_test">
     <configuration name="fuzzer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="fuzzer" RUN_TARGET_NAME="fuzzer" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="namespace_share" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="fuzzer" TARGET_NAME="namespace_share" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="namespace_static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="fuzzer" TARGET_NAME="namespace_static" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="namespace_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="fuzzer" TARGET_NAME="namespace_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="fuzzer" RUN_TARGET_NAME="namespace_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="xfrm_nl_share" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="fuzzer" TARGET_NAME="xfrm_nl_share" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="xfrm_nl_static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="fuzzer" TARGET_NAME="xfrm_nl_static" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="xfrm_nl_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="fuzzer" TARGET_NAME="xfrm_nl_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="fuzzer" RUN_TARGET_NAME="xfrm_nl_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.fuzzer" />
+      <item itemvalue="CMake Application.xfrm_nl_share" />
+      <item itemvalue="CMake Application.xfrm_nl_static" />
+      <item itemvalue="CMake Application.xfrm_nl_test" />
+      <item itemvalue="CMake Application.namespace_share" />
+      <item itemvalue="CMake Application.namespace_static" />
+      <item itemvalue="CMake Application.namespace_test" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -65,10 +146,22 @@
       <updated>1567386839862</updated>
       <workItem from="1567386845282" duration="67000" />
       <workItem from="1567387084422" duration="4645000" />
+      <workItem from="1567406463544" duration="7269000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

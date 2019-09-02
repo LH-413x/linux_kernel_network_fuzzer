@@ -6,3 +6,12 @@
 /home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/namespace/CMakeFiles/namespace_share.dir
 /home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/namespace/CMakeFiles/namespace_test.dir
 /home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/namespace/CMakeFiles/namespace_static.dir
+/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/CMakeFiles/rebuild_cache.dir
+/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/CMakeFiles/edit_cache.dir
+/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/CMakeFiles/rebuild_cache.dir
+/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/CMakeFiles/edit_cache.dir
+/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm/CMakeFiles/rebuild_cache.dir
+/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir
+/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm/CMakeFiles/edit_cache.dir
+/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir
+/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir

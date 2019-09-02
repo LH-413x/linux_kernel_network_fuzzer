@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o  -o xfrm_nl_test libxfrm_nl.a -lnl-genl-3 -lnl-route-3 -lnl-xfrm-3 -lnl-3 

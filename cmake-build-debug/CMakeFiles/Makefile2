@@ -235,6 +235,175 @@ clean: namespace/CMakeFiles/namespace_static.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory kinterface
+
+# Convenience name for "all" pass in the directory.
+kinterface/all: kinterface/netlink/all
+
+.PHONY : kinterface/all
+
+# Convenience name for "clean" pass in the directory.
+kinterface/clean: kinterface/netlink/clean
+
+.PHONY : kinterface/clean
+
+# Convenience name for "preinstall" pass in the directory.
+kinterface/preinstall: kinterface/netlink/preinstall
+
+.PHONY : kinterface/preinstall
+
+#=============================================================================
+# Directory level rules for directory kinterface/netlink
+
+# Convenience name for "all" pass in the directory.
+kinterface/netlink/all: kinterface/netlink/xfrm/all
+
+.PHONY : kinterface/netlink/all
+
+# Convenience name for "clean" pass in the directory.
+kinterface/netlink/clean: kinterface/netlink/xfrm/clean
+
+.PHONY : kinterface/netlink/clean
+
+# Convenience name for "preinstall" pass in the directory.
+kinterface/netlink/preinstall: kinterface/netlink/xfrm/preinstall
+
+.PHONY : kinterface/netlink/preinstall
+
+#=============================================================================
+# Directory level rules for directory kinterface/netlink/xfrm
+
+# Convenience name for "all" pass in the directory.
+kinterface/netlink/xfrm/all: kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/all
+kinterface/netlink/xfrm/all: kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir/all
+kinterface/netlink/xfrm/all: kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/all
+
+.PHONY : kinterface/netlink/xfrm/all
+
+# Convenience name for "clean" pass in the directory.
+kinterface/netlink/xfrm/clean: kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/clean
+kinterface/netlink/xfrm/clean: kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir/clean
+kinterface/netlink/xfrm/clean: kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/clean
+
+.PHONY : kinterface/netlink/xfrm/clean
+
+# Convenience name for "preinstall" pass in the directory.
+kinterface/netlink/xfrm/preinstall:
+
+.PHONY : kinterface/netlink/xfrm/preinstall
+
+#=============================================================================
+# Target rules for target kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir
+
+# All Build rule for target.
+kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/all: kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/all
+	$(MAKE) -f kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/build.make kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/depend
+	$(MAKE) -f kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/build.make kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target xfrm_nl_test"
+.PHONY : kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/all
+
+# Include target in all.
+all: kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/rule
+
+# Convenience name for target.
+xfrm_nl_test: kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/rule
+
+.PHONY : xfrm_nl_test
+
+# clean rule for target.
+kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/clean:
+	$(MAKE) -f kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/build.make kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/clean
+.PHONY : kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/clean
+
+# clean rule for target.
+clean: kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir
+
+# All Build rule for target.
+kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir/all:
+	$(MAKE) -f kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir/build.make kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir/depend
+	$(MAKE) -f kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir/build.make kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target xfrm_nl_share"
+.PHONY : kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir/all
+
+# Include target in all.
+all: kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir/rule
+
+# Convenience name for target.
+xfrm_nl_share: kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir/rule
+
+.PHONY : xfrm_nl_share
+
+# clean rule for target.
+kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir/clean:
+	$(MAKE) -f kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir/build.make kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir/clean
+.PHONY : kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir/clean
+
+# clean rule for target.
+clean: kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir
+
+# All Build rule for target.
+kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/all:
+	$(MAKE) -f kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/build.make kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/depend
+	$(MAKE) -f kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/build.make kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target xfrm_nl_static"
+.PHONY : kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/all
+
+# Include target in all.
+all: kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/rule
+
+# Convenience name for target.
+xfrm_nl_static: kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/rule
+
+.PHONY : xfrm_nl_static
+
+# clean rule for target.
+kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/clean:
+	$(MAKE) -f kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/build.make kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/clean
+.PHONY : kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/clean
+
+# clean rule for target.
+clean: kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

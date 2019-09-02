@@ -162,6 +162,45 @@ namespace_static/fast:
 	$(MAKE) -f namespace/CMakeFiles/namespace_static.dir/build.make namespace/CMakeFiles/namespace_static.dir/build
 .PHONY : namespace_static/fast
 
+#=============================================================================
+# Target rules for targets named xfrm_nl_test
+
+# Build rule for target.
+xfrm_nl_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 xfrm_nl_test
+.PHONY : xfrm_nl_test
+
+# fast build rule for target.
+xfrm_nl_test/fast:
+	$(MAKE) -f kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/build.make kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/build
+.PHONY : xfrm_nl_test/fast
+
+#=============================================================================
+# Target rules for targets named xfrm_nl_share
+
+# Build rule for target.
+xfrm_nl_share: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 xfrm_nl_share
+.PHONY : xfrm_nl_share
+
+# fast build rule for target.
+xfrm_nl_share/fast:
+	$(MAKE) -f kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir/build.make kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_share.dir/build
+.PHONY : xfrm_nl_share/fast
+
+#=============================================================================
+# Target rules for targets named xfrm_nl_static
+
+# Build rule for target.
+xfrm_nl_static: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 xfrm_nl_static
+.PHONY : xfrm_nl_static
+
+# fast build rule for target.
+xfrm_nl_static/fast:
+	$(MAKE) -f kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/build.make kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/build
+.PHONY : xfrm_nl_static/fast
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -201,6 +240,9 @@ help:
 	@echo "... namespace_share"
 	@echo "... namespace_test"
 	@echo "... namespace_static"
+	@echo "... xfrm_nl_test"
+	@echo "... xfrm_nl_share"
+	@echo "... xfrm_nl_static"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
