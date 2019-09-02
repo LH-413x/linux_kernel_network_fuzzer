@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libnamespace.so -o libnamespace.so CMakeFiles/namespace_share.dir/namespace.cpp.o 

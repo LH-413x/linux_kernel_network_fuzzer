@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liuhao/CLionProjects/linux/net/fuzzer/namespace/namespace.h
+sched.h
+-
+stdio.h
+-
+cstdlib
+-
+iostream
+-
+string
+-
+
+/home/liuhao/CLionProjects/linux/net/fuzzer/namespace/namespace_test.cpp
+namespace.h
+/home/liuhao/CLionProjects/linux/net/fuzzer/namespace/namespace.h
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnamespace.a  CMakeFiles/namespace_static.dir/namespace.cpp.o
+/usr/bin/ranlib libnamespace.a
