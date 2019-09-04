@@ -9,8 +9,10 @@ pkg_check_modules(NL3 REQUIRED
         libnl-3.0 libnl-genl-3.0
         libnl-route-3.0 libnl-xfrm-3.0)
 
-include_directories(${NL3_INCLUDE_DIRS})
-
+#include_directories(${NL3_INCLUDE_DIRS})
+include_directories(
+        ${PROJECT_SOURCE_DIR}/utils
+)
 link_directories(${CMAKE_BINARY_DIR}/Lib /usr/local/lib)
 
 #not need to use libnl now, but need to read source code

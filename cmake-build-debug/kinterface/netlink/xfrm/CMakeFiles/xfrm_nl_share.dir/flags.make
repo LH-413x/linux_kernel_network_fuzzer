@@ -6,5 +6,5 @@ CXX_FLAGS = -g -fPIC   -std=gnu++14
 
 CXX_DEFINES = -Dxfrm_nl_share_EXPORTS
 
-CXX_INCLUDES = -I/home/liuhao/CLionProjects/linux/net/fuzzer/namespace -I/usr/local/include/libnl3 
+CXX_INCLUDES = -I/home/liuhao/CLionProjects/linux/net/fuzzer/namespace -I/home/liuhao/CLionProjects/linux/net/fuzzer/utils 
 

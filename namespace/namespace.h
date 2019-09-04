@@ -10,4 +10,5 @@
 #include <iostream>
 #include <string>
 void enableNamespace();
+
 #endif //FUZZER_NAMESPACE_H

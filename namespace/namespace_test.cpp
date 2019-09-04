@@ -3,7 +3,10 @@
 //
 
 #include "namespace.h"
+#include <check.h>
+#include <log.h>
 
 int main(){
     enableNamespace();
+    LOGI("hello");
 }

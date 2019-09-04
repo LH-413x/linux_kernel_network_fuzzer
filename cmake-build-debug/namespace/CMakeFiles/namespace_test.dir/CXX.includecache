@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+../utils/check.h
+
+../utils/log.h
+cstdio
+-
+
 /home/liuhao/CLionProjects/linux/net/fuzzer/namespace/namespace.h
 sched.h
 -
@@ -21,4 +27,8 @@ string
 /home/liuhao/CLionProjects/linux/net/fuzzer/namespace/namespace_test.cpp
 namespace.h
 /home/liuhao/CLionProjects/linux/net/fuzzer/namespace/namespace.h
+check.h
+-
+log.h
+-
 

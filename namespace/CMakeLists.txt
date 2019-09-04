@@ -1,5 +1,6 @@
-include_directories(${PROJECT_SOURCE_DIR}/include )
-
+include_directories(
+        ${PROJECT_SOURCE_DIR}/utils
+)
 set(srcs namespace.cpp)
 
 #set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)

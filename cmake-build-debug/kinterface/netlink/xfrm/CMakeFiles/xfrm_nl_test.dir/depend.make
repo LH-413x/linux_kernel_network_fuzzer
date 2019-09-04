@@ -5,23 +5,4 @@ kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: ../names
 kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: ../kinterface/netlink/base/base_nl.h
 kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: ../kinterface/netlink/xfrm/xfrm.h
 kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: ../kinterface/netlink/xfrm/xfrm_nl_test.cpp
-kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: /usr/local/include/libnl3/netlink/addr.h
-kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: /usr/local/include/libnl3/netlink/attr.h
-kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: /usr/local/include/libnl3/netlink/cache.h
-kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: /usr/local/include/libnl3/netlink/data.h
-kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: /usr/local/include/libnl3/netlink/errno.h
-kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: /usr/local/include/libnl3/netlink/genl/ctrl.h
-kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: /usr/local/include/libnl3/netlink/genl/genl.h
-kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: /usr/local/include/libnl3/netlink/handlers.h
-kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: /usr/local/include/libnl3/netlink/list.h
-kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: /usr/local/include/libnl3/netlink/msg.h
-kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: /usr/local/include/libnl3/netlink/netlink-compat.h
-kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: /usr/local/include/libnl3/netlink/netlink-kernel.h
-kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: /usr/local/include/libnl3/netlink/netlink.h
-kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: /usr/local/include/libnl3/netlink/object.h
-kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: /usr/local/include/libnl3/netlink/socket.h
-kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: /usr/local/include/libnl3/netlink/types.h
-kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: /usr/local/include/libnl3/netlink/utils.h
-kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: /usr/local/include/libnl3/netlink/version.h
-kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/xfrm_nl_test.cpp.o: /usr/local/include/libnl3/netlink/xfrm/sa.h
 

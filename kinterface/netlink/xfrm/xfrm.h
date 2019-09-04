@@ -23,12 +23,12 @@
 #include <linux/netlink.h>
 #include <sys/resource.h>
 
-
+/*
 #include <netlink/types.h>
 #include <netlink/genl/genl.h>
 #include <netlink/genl/ctrl.h>
 #include <netlink/xfrm/sa.h>
-
+*/
 class xfrmNl : baseNl {
 public:
     xfrmNl();

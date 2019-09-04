@@ -6,5 +6,5 @@ CXX_FLAGS = -g -fPIC   -std=gnu++14
 
 CXX_DEFINES = -Dnamespace_share_EXPORTS
 
-CXX_INCLUDES = -I/home/liuhao/CLionProjects/linux/net/fuzzer/include 
+CXX_INCLUDES = -I/home/liuhao/CLionProjects/linux/net/fuzzer/utils 
 
