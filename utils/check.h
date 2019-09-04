@@ -7,7 +7,7 @@
 
 #define CHECK_EXPECT_EQUAL(expr,expect)  \
     { \
-        int result=expr; \
+        uint64_t result=expr; \
         if((result)!=(expect)){ \
             char buffer[0x100]; \
             snprintf(buffer,sizeof(buffer), \
@@ -19,7 +19,7 @@
 
 #define CHECK_UNEXPECT_EQUAL(expr,expect) \
     { \
-        int result=expr; \
+        uint64_t result=expr; \
         if((result)==(expect)){ \
             char buffer[0x100]; \
             snprintf(buffer,sizeof(buffer), \

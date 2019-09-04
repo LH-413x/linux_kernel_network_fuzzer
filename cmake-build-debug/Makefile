@@ -163,6 +163,19 @@ namespace_static/fast:
 .PHONY : namespace_static/fast
 
 #=============================================================================
+# Target rules for targets named xfrm_developer_example
+
+# Build rule for target.
+xfrm_developer_example: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 xfrm_developer_example
+.PHONY : xfrm_developer_example
+
+# fast build rule for target.
+xfrm_developer_example/fast:
+	$(MAKE) -f kinterface/netlink/xfrm/CMakeFiles/xfrm_developer_example.dir/build.make kinterface/netlink/xfrm/CMakeFiles/xfrm_developer_example.dir/build
+.PHONY : xfrm_developer_example/fast
+
+#=============================================================================
 # Target rules for targets named xfrm_nl_test
 
 # Build rule for target.
@@ -240,6 +253,7 @@ help:
 	@echo "... namespace_share"
 	@echo "... namespace_test"
 	@echo "... namespace_static"
+	@echo "... xfrm_developer_example"
 	@echo "... xfrm_nl_test"
 	@echo "... xfrm_nl_share"
 	@echo "... xfrm_nl_static"

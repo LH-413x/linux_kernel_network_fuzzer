@@ -34,11 +34,6 @@ int xfrmNl::sa_add(){
         LOGE("ERROR on nl_connect\n");
     }
 
-    struct nl_cache *cache;
-    if (0 != xfrmnl_sa_alloc_cache(socket,&cache)) {
-        LOGE("ERROR on xfrmnl_sa_alloc_cache\n");
-    }
-
     int err = 0;
     struct xfrmnl_sa *sa;
     sa = xfrmnl_sa_alloc();
@@ -47,36 +42,28 @@ int xfrmNl::sa_add(){
         return -1;
     }
 
-    const char* auth_alg_name = "hmac(sha256)";
+    const char* auth_alg_name = "helloworld";
     const char* auth_key = "12345678901234567890123456789012";
-    unsigned int auth_key_len = 256;
+    unsigned int auth_key_len = strlen(auth_key);
     unsigned int auth_trunc_len = 96;
     if (0 != xfrmnl_sa_set_auth_params(sa, auth_alg_name, auth_key_len, auth_trunc_len, auth_key)) {
         LOGE("ERROR in xfrmnl_sa_set_auth_params\n");
-    }
-    /*
-    err = xfrmnl_sa_add(socket, sa, NLM_F_REQUEST|NLM_F_CREATE|NLM_F_EXCL);
-    if (err < 0) {
-        LOGE("ERROR in xfrm_sa_add, error code %d\n",err);
-        xfrmnl_sa_put(sa);
-        nl_close(socket);
-        return err;
-    }
-    */
-    xfrmnl_sa_update(socket, sa, NLM_F_REQUEST | NLM_F_EXCL);
-    if(err < 0){
-        LOGE("ERROR in xfrm_sa_update");
-        xfrmnl_sa_put(sa);
-        nl_close(socket);
-        return err;
+        goto clean;
     }
 
+    err = xfrmnl_sa_add(socket, sa, 0);
+    if (err < 0) {
+        LOGE("ERROR in xfrm_sa_add, error code %d\n",err);
+        goto clean;
+    }
+clean:
     xfrmnl_sa_put(sa);
     nl_close(socket);
     return 0;
 }
 
 xfrmNl::xfrmNl() {
+    /*
     struct sockaddr_nl snl={
         .nl_family=PF_NETLINK,
     };
@@ -84,4 +71,5 @@ xfrmNl::xfrmNl() {
     fd_xfrm_state = socket(PF_NETLINK, SOCK_RAW, NETLINK_XFRM);
     CHECK_UNEXPECT_EQUAL(fd_xfrm_state,-1);
     CHECK_UNEXPECT_EQUAL(bind(fd_xfrm_state, (struct sockaddr *)&snl, sizeof(snl)),-1);
+*/
 }

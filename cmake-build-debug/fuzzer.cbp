@@ -227,6 +227,58 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/namespace/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="xfrm_developer_example">
+				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Bin/xfrm_developer_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/namespace"/>
+					<Add directory="/usr/local/include/libnl3"/>
+					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm/Makefile&quot;  VERBOSE=1 xfrm_developer_example"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xfrm_developer_example/fast">
+				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Bin/xfrm_developer_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/namespace"/>
+					<Add directory="/usr/local/include/libnl3"/>
+					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm/Makefile&quot;  VERBOSE=1 xfrm_developer_example/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/kinterface/netlink/xfrm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="xfrm_nl_test">
 				<Option output="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Bin/xfrm_nl_test" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug/Bin"/>
@@ -391,6 +443,9 @@
 		<Unit filename="/home/liuhao/CLionProjects/linux/net/fuzzer/kinterface/netlink/xfrm/xfrm.h">
 			<Option target="xfrm_nl_share"/>
 			<Option target="xfrm_nl_static"/>
+		</Unit>
+		<Unit filename="/home/liuhao/CLionProjects/linux/net/fuzzer/kinterface/netlink/xfrm/xfrm_developer.cpp">
+			<Option target="xfrm_developer_example"/>
 		</Unit>
 		<Unit filename="/home/liuhao/CLionProjects/linux/net/fuzzer/kinterface/netlink/xfrm/xfrm_nl_test.cpp">
 			<Option target="xfrm_nl_test"/>

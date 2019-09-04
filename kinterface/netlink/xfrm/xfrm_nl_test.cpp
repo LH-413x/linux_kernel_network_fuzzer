@@ -4,7 +4,7 @@
 
 #include "xfrm.h"
 #include <namespace.h>
-#include <iostream>
+
 int main(){
     enableNamespace();
     xfrmNl x;

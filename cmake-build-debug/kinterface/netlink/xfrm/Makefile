@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+kinterface/netlink/xfrm/CMakeFiles/xfrm_developer_example.dir/rule:
+	cd /home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 kinterface/netlink/xfrm/CMakeFiles/xfrm_developer_example.dir/rule
+.PHONY : kinterface/netlink/xfrm/CMakeFiles/xfrm_developer_example.dir/rule
+
+# Convenience name for target.
+xfrm_developer_example: kinterface/netlink/xfrm/CMakeFiles/xfrm_developer_example.dir/rule
+
+.PHONY : xfrm_developer_example
+
+# fast build rule for target.
+xfrm_developer_example/fast:
+	cd /home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug && $(MAKE) -f kinterface/netlink/xfrm/CMakeFiles/xfrm_developer_example.dir/build.make kinterface/netlink/xfrm/CMakeFiles/xfrm_developer_example.dir/build
+.PHONY : xfrm_developer_example/fast
+
+# Convenience name for target.
 kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/rule:
 	cd /home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/rule
 .PHONY : kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_test.dir/rule
@@ -185,6 +200,33 @@ xfrm.cpp.s:
 	cd /home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug && $(MAKE) -f kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/build.make kinterface/netlink/xfrm/CMakeFiles/xfrm_nl_static.dir/xfrm.cpp.s
 .PHONY : xfrm.cpp.s
 
+xfrm_developer.o: xfrm_developer.cpp.o
+
+.PHONY : xfrm_developer.o
+
+# target to build an object file
+xfrm_developer.cpp.o:
+	cd /home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug && $(MAKE) -f kinterface/netlink/xfrm/CMakeFiles/xfrm_developer_example.dir/build.make kinterface/netlink/xfrm/CMakeFiles/xfrm_developer_example.dir/xfrm_developer.cpp.o
+.PHONY : xfrm_developer.cpp.o
+
+xfrm_developer.i: xfrm_developer.cpp.i
+
+.PHONY : xfrm_developer.i
+
+# target to preprocess a source file
+xfrm_developer.cpp.i:
+	cd /home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug && $(MAKE) -f kinterface/netlink/xfrm/CMakeFiles/xfrm_developer_example.dir/build.make kinterface/netlink/xfrm/CMakeFiles/xfrm_developer_example.dir/xfrm_developer.cpp.i
+.PHONY : xfrm_developer.cpp.i
+
+xfrm_developer.s: xfrm_developer.cpp.s
+
+.PHONY : xfrm_developer.s
+
+# target to generate assembly for a file
+xfrm_developer.cpp.s:
+	cd /home/liuhao/CLionProjects/linux/net/fuzzer/cmake-build-debug && $(MAKE) -f kinterface/netlink/xfrm/CMakeFiles/xfrm_developer_example.dir/build.make kinterface/netlink/xfrm/CMakeFiles/xfrm_developer_example.dir/xfrm_developer.cpp.s
+.PHONY : xfrm_developer.cpp.s
+
 xfrm_nl_test.o: xfrm_nl_test.cpp.o
 
 .PHONY : xfrm_nl_test.o
@@ -219,6 +261,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... xfrm_developer_example"
 	@echo "... xfrm_nl_test"
 	@echo "... edit_cache"
 	@echo "... xfrm_nl_share"
@@ -226,6 +269,9 @@ help:
 	@echo "... xfrm.o"
 	@echo "... xfrm.i"
 	@echo "... xfrm.s"
+	@echo "... xfrm_developer.o"
+	@echo "... xfrm_developer.i"
+	@echo "... xfrm_developer.s"
 	@echo "... xfrm_nl_test.o"
 	@echo "... xfrm_nl_test.i"
 	@echo "... xfrm_nl_test.s"
