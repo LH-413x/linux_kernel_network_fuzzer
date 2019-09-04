@@ -23,20 +23,25 @@
 #include <linux/netlink.h>
 #include <sys/resource.h>
 
+#include <iostream>
+#include <netlink/types.h>
+#include <netlink/xfrm/sa.h>
 /*
 #include <netlink/types.h>
 #include <netlink/genl/genl.h>
 #include <netlink/genl/ctrl.h>
 #include <netlink/xfrm/sa.h>
 */
+
+
+
 class xfrmNl : baseNl {
 public:
     xfrmNl();
-    void bindSendRecv();
     virtual ~xfrmNl() = default;
+    virtual int sa_add();
 private:
     int fd_xfrm_state;
 };
-
 
 #endif //FUZZER_XFRM_H

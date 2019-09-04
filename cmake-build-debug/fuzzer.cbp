@@ -235,6 +235,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/namespace"/>
+					<Add directory="/usr/local/include/libnl3"/>
 					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/utils"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -260,6 +261,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/namespace"/>
+					<Add directory="/usr/local/include/libnl3"/>
 					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/utils"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -285,6 +287,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/namespace"/>
+					<Add directory="/usr/local/include/libnl3"/>
 					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/utils"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -310,6 +313,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/namespace"/>
+					<Add directory="/usr/local/include/libnl3"/>
 					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/utils"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -335,6 +339,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/namespace"/>
+					<Add directory="/usr/local/include/libnl3"/>
 					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/utils"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -360,6 +365,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/namespace"/>
+					<Add directory="/usr/local/include/libnl3"/>
 					<Add directory="/home/liuhao/CLionProjects/linux/net/fuzzer/utils"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>

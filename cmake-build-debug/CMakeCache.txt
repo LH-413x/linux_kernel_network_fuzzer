@@ -238,6 +238,12 @@ pkgcfg_lib_NL3_nl-route-3:FILEPATH=/usr/local/lib/libnl-route-3.so
 //Path to a library.
 pkgcfg_lib_NL3_nl-xfrm-3:FILEPATH=/usr/local/lib/libnl-xfrm-3.so
 
+//Dependencies for the target
+xfrm_nl_share_LIB_DEPENDS:STATIC=general;nl-genl-3;general;nl-route-3;general;nl-xfrm-3;general;nl-3;
+
+//Dependencies for the target
+xfrm_nl_static_LIB_DEPENDS:STATIC=general;nl-genl-3;general;nl-route-3;general;nl-xfrm-3;general;nl-3;
+
 
 ########################
 # INTERNAL cache entries

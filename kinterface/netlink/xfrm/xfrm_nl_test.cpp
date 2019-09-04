@@ -8,5 +8,5 @@
 int main(){
     enableNamespace();
     xfrmNl x;
-    x.bindSendRecv();
+    x.sa_add();
 }
