@@ -30,7 +30,8 @@ set(test_srcs xfrm_nl_test.cpp)
 add_executable(xfrm_nl_test ${test_srcs})
 
 target_link_libraries(xfrm_nl_test xfrm_nl_static ${CMAKE_BINARY_DIR}/Lib/libnamespace.a)
+find_package(Threads)
 
 add_executable(xfrm_developer_example xfrm_developer.cpp)
 target_link_libraries(xfrm_developer_example xfrm_nl_static ${CMAKE_BINARY_DIR}/Lib/libnamespace.a)
-target_link_libraries(xfrm_developer_example ${NL3_LIBRARIES})
+target_link_libraries(xfrm_developer_example ${NL3_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT})

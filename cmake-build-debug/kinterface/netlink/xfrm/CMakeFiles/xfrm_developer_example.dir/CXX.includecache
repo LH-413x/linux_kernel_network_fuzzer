@@ -53,11 +53,23 @@ linux/socket.h
 -
 linux/xfrm.h
 -
+linux/ipsec.h
+-
 namespace.h
 -
 check.h
 -
 log.h
+-
+thread
+-
+vector
+-
+iostream
+-
+sys/types.h
+-
+unistd.h
 -
 
 /usr/local/include/libnl3/netlink/addr.h
